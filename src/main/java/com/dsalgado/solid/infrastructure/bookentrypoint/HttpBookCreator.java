@@ -13,6 +13,9 @@ public class HttpBookCreator {
 
   @PostMapping("/book")
   public HttpStatus createBook(@RequestBody BookDto bookDto) {
+    if (bookDto.getISBN() == null) {
+      return HttpStatus.BAD_REQUEST;
+    }
     bookCreator.create(bookDto.getISBN(), bookDto.getAuthor(), bookDto.getTitle());
     return HttpStatus.OK;
   }

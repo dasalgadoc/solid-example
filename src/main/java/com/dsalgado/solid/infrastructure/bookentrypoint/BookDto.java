@@ -11,8 +11,8 @@ public class BookDto {
   private String ISBN;
 
   @JsonProperty("title")
-  private String title;
+  private String title = "";
 
   @JsonProperty("author")
-  private String author;
+  private String author = "";
 }

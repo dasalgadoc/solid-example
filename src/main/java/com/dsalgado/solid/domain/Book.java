@@ -10,4 +10,8 @@ public class Book {
   private String title;
   private String author;
   private String currentPage;
+
+  public Book replaceValues(String author, String title) {
+    return Book.builder().ISBN(this.ISBN).author(author).title(title).build();
+  }
 }
