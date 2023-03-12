@@ -1,16 +1,20 @@
 package com.dsalgado.solid.application.book;
 
 import com.dsalgado.solid.domain.BookRepository;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
+import javax.annotation.PostConstruct;
+import javax.annotation.Resource;
 import org.springframework.stereotype.Service;
 
 @Service
 public class BookDeleter {
 
-  @Autowired
-  @Qualifier("InMemoryBookRepository")
+  @Resource private BookRepositoryFactory bookRepositoryFactory;
   private BookRepository bookRepository;
+
+  @PostConstruct
+  public void initializer() {
+    bookRepository = bookRepositoryFactory.getBookRepository();
+  }
 
   public void delete(String ISBN) {
     bookRepository.delete(ISBN);
