@@ -1,4 +1,4 @@
-package com.dsalgado.solid.application;
+package com.dsalgado.solid.application.printer;
 
 import com.dsalgado.solid.domain.Book;
 import com.dsalgado.solid.domain.BookFormatter;

@@ -2,6 +2,7 @@ package com.dsalgado.solid.application;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+import com.dsalgado.solid.application.printer.ConsoleBookPrinter;
 import com.dsalgado.solid.domain.Book;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
