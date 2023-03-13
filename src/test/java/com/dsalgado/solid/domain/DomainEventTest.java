@@ -3,6 +3,10 @@ package com.dsalgado.solid.domain;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertInstanceOf;
 
+import com.dsalgado.solid.domain.books.Book;
+import com.dsalgado.solid.domain.events.BookCreatedDomainEvent;
+import com.dsalgado.solid.domain.events.BookUpdatedDomainEvent;
+import com.dsalgado.solid.domain.events.DomainEvent;
 import java.util.Date;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,8 +1,8 @@
 package com.dsalgado.solid.application.logger;
 
-import com.dsalgado.solid.domain.BookCreatedDomainEvent;
-import com.dsalgado.solid.domain.DomainEvent;
-import com.dsalgado.solid.domain.Observer;
+import com.dsalgado.solid.domain.events.BookCreatedDomainEvent;
+import com.dsalgado.solid.domain.events.DomainEvent;
+import com.dsalgado.solid.domain.events.Observer;
 import org.springframework.stereotype.Service;
 
 @Service

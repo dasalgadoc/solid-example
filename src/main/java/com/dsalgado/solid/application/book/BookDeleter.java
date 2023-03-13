@@ -1,6 +1,6 @@
 package com.dsalgado.solid.application.book;
 
-import com.dsalgado.solid.domain.BookRepository;
+import com.dsalgado.solid.domain.books.BookRepository;
 import javax.annotation.PostConstruct;
 import javax.annotation.Resource;
 import org.springframework.stereotype.Service;

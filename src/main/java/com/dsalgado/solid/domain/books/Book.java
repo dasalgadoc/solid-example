@@ -1,4 +1,4 @@
-package com.dsalgado.solid.domain;
+package com.dsalgado.solid.domain.books;
 
 import lombok.Builder;
 import lombok.Data;

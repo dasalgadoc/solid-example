@@ -1,4 +1,4 @@
-package com.dsalgado.solid.domain;
+package com.dsalgado.solid.domain.events;
 
 public class BookCreatedDomainEvent extends DomainEvent {
   public static final String EVENT_NAME = "book_created";

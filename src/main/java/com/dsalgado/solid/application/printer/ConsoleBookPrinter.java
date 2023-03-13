@@ -1,7 +1,7 @@
 package com.dsalgado.solid.application.printer;
 
-import com.dsalgado.solid.domain.Book;
-import com.dsalgado.solid.domain.BookFormatter;
+import com.dsalgado.solid.domain.books.Book;
+import com.dsalgado.solid.domain.books.BookFormatter;
 import java.util.Locale;
 import org.springframework.stereotype.Service;
 

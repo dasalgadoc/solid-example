@@ -1,6 +1,6 @@
 package com.dsalgado.solid.infrastructure.eventbus;
 
-import com.dsalgado.solid.domain.EventBus;
+import com.dsalgado.solid.domain.events.EventBus;
 import java.util.List;
 import java.util.Optional;
 import javax.annotation.Resource;

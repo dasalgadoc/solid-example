@@ -1,8 +1,8 @@
 package com.dsalgado.solid.infrastructure.book;
 
-import com.dsalgado.solid.domain.Book;
-import com.dsalgado.solid.domain.BookDoesNotExists;
-import com.dsalgado.solid.domain.BookRepository;
+import com.dsalgado.solid.domain.books.Book;
+import com.dsalgado.solid.domain.books.BookDoesNotExists;
+import com.dsalgado.solid.domain.books.BookRepository;
 import java.util.HashMap;
 import java.util.Map;
 import org.springframework.stereotype.Component;

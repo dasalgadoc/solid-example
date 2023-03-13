@@ -1,9 +1,9 @@
 package com.dsalgado.solid.application.book;
 
-import com.dsalgado.solid.domain.Book;
-import com.dsalgado.solid.domain.BookCreatedDomainEvent;
-import com.dsalgado.solid.domain.BookRepository;
-import com.dsalgado.solid.domain.EventBus;
+import com.dsalgado.solid.domain.books.Book;
+import com.dsalgado.solid.domain.books.BookRepository;
+import com.dsalgado.solid.domain.events.BookCreatedDomainEvent;
+import com.dsalgado.solid.domain.events.EventBus;
 import com.dsalgado.solid.infrastructure.eventbus.EventBusFactory;
 import javax.annotation.PostConstruct;
 import javax.annotation.Resource;

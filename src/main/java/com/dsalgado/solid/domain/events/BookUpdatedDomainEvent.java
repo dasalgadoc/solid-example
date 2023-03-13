@@ -1,5 +1,6 @@
-package com.dsalgado.solid.domain;
+package com.dsalgado.solid.domain.events;
 
+import com.dsalgado.solid.domain.books.Book;
 import java.util.Date;
 
 public class BookUpdatedDomainEvent extends DomainEvent {

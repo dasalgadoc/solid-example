@@ -1,7 +1,7 @@
 package com.dsalgado.solid.infrastructure.bookentrypoint;
 
 import com.dsalgado.solid.application.book.BookGetter;
-import com.dsalgado.solid.domain.Book;
+import com.dsalgado.solid.domain.books.Book;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

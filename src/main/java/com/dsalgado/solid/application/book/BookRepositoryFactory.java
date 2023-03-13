@@ -1,6 +1,6 @@
 package com.dsalgado.solid.application.book;
 
-import com.dsalgado.solid.domain.BookRepository;
+import com.dsalgado.solid.domain.books.BookRepository;
 import java.util.List;
 import java.util.Optional;
 import javax.annotation.Resource;

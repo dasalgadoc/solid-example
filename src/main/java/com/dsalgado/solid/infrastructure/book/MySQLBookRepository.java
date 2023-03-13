@@ -1,7 +1,7 @@
 package com.dsalgado.solid.infrastructure.book;
 
-import com.dsalgado.solid.domain.Book;
-import com.dsalgado.solid.domain.BookRepository;
+import com.dsalgado.solid.domain.books.Book;
+import com.dsalgado.solid.domain.books.BookRepository;
 import org.springframework.stereotype.Component;
 
 @Component("MySQLBookRepository")

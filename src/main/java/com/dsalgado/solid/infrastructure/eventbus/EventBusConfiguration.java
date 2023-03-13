@@ -1,9 +1,9 @@
 package com.dsalgado.solid.infrastructure.eventbus;
 
 import com.dsalgado.solid.application.logger.NewBooksLogger;
-import com.dsalgado.solid.domain.BookCreatedDomainEvent;
-import com.dsalgado.solid.domain.DomainEvent;
-import com.dsalgado.solid.domain.Observer;
+import com.dsalgado.solid.domain.events.BookCreatedDomainEvent;
+import com.dsalgado.solid.domain.events.DomainEvent;
+import com.dsalgado.solid.domain.events.Observer;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;

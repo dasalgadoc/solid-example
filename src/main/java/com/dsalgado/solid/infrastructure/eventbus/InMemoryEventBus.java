@@ -1,8 +1,8 @@
 package com.dsalgado.solid.infrastructure.eventbus;
 
-import com.dsalgado.solid.domain.DomainEvent;
-import com.dsalgado.solid.domain.EventBus;
-import com.dsalgado.solid.domain.Observer;
+import com.dsalgado.solid.domain.events.DomainEvent;
+import com.dsalgado.solid.domain.events.EventBus;
+import com.dsalgado.solid.domain.events.Observer;
 import java.util.List;
 import java.util.Map;
 import org.springframework.stereotype.Component;

@@ -1,4 +1,4 @@
-package com.dsalgado.solid.domain;
+package com.dsalgado.solid.domain.books;
 
 public interface BookRepository {
   void save(Book book);
