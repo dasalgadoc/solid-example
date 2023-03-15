@@ -25,6 +25,10 @@
   mvn dependency:resolve
 ```
 
-## 👩‍💻 Project explanation
+## Project explanation
 
 This project tries to explore the SOLID principle through a simple Book CRUD Rest API, the project does not apply any infrastructure.
+
+## Other versions
+
+Do you prefer Go over Java? see [this repository](https://github.com/dasalgadoc/solid-example-go)
