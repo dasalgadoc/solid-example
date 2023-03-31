@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  Repository to explore the SOLID principles in a simple Java Spring boot poject.
+  Repository to explore the SOLID principles in a simple Java Spring boot project.
 </p>
 
 ## Environment Setup
